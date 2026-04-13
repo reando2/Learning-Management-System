@@ -44,7 +44,7 @@ export default function Navbar() {
             <div className={styles.logoIcon}>
               <BookOpen size={18} />
             </div>
-            <span className={styles.logoText}>LearningHub</span>
+            <span className={styles.logoText}>Learnhub</span>
           </Link>
 
           {/* Desktop Nav Links */}

@@ -44,7 +44,7 @@ export default function AdminSidebar({ user }: Props) {
       <div className={styles.header}>
         <Link href="/" className={styles.logo}>
           <div className={styles.logoIcon}><BookOpen size={16} /></div>
-          <span className={styles.logoText}>LearningHub</span>
+          <span className={styles.logoText}>Learnhub</span>
         </Link>
         <span className={styles.adminBadge}>
           <Shield size={10} /> ADMIN

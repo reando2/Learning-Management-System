@@ -5,8 +5,8 @@ import { auth } from "@/lib/auth";
 
 export const metadata: Metadata = {
   title: {
-    default: "LearningHub — Platform Pembelajaran Online",
-    template: "%s | LearningHub",
+    default: "Learnhub — Platform Pembelajaran Online",
+    template: "%s | Learnhub",
   },
   description:
     "Platform pembelajaran online terbaik dengan ribuan artikel berkualitas tinggi untuk meningkatkan skill Anda.",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    siteName: "LearningHub",
+    siteName: "Learnhub",
   },
 };
 

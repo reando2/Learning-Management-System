@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: "LearningHub — Platform Pembelajaran Online",
+  title: "Learnhub — Platform Pembelajaran Online",
   description: "Platform pembelajaran online terbaik dengan ribuan artikel berkualitas tinggi.",
 };
 
@@ -48,16 +48,15 @@ export default async function HomePage() {
           <div className={styles.heroContent}>
             <div className={styles.heroBadge}>
               <Zap size={12} />
-              Platform Pembelajaran Terlengkap
+              Platform Pembelajaran Teknik Komputer Jaringan
             </div>
             <h1 className={styles.heroTitle}>
               Tingkatkan Skill Anda
               <br />
-              <span className={styles.heroTitleAccent}>Bersama Ahlinya</span>
+              <span className={styles.heroTitleAccent}>Bersama Learnhub</span>
             </h1>
             <p className={styles.heroDesc}>
-              Akses ribuan artikel pembelajaran berkualitas tinggi, pantau progress belajar Anda,
-              dan bergabung dengan komunitas pelajar digital yang terus berkembang.
+              Akses Belajar ke materi TKJ dengan 4 module Linux, Windows, Cisco, Ansible.
             </p>
             <div className={styles.heroCta}>
               <Link href="/register" className="btn btn-primary btn-lg">
@@ -103,7 +102,7 @@ export default async function HomePage() {
                   <span className={styles.codeKeyword}>const</span>
                   <span className={styles.codeVar}> learning</span>
                   <span> = </span>
-                  <span className={styles.codeStr}>&#39;LearningHub&#39;</span>
+                  <span className={styles.codeStr}>&#39;Learnhub&#39;</span>
                 </div>
                 <div className={styles.heroCodeLine}>
                   <span className={styles.codeKeyword}>function</span>

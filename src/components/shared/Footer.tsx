@@ -13,10 +13,10 @@ export default function Footer() {
               <div className={styles.logoIcon}>
                 <BookOpen size={18} />
               </div>
-              <span className={styles.logoText}>LearningHub</span>
+              <span className={styles.logoText}>Learnhub</span>
             </Link>
             <p className={styles.tagline}>
-              Platform pembelajaran online terbaik untuk meningkatkan skill digital Anda bersama ribuan pelajar.
+              Platform pembelajaran online untuk siswa Teknik Komputer Jaringan SMKN 1 BADEGAN.
             </p>
             <div className={styles.socials}>
               <a href="#" aria-label="Website" className={styles.socialLink}><Globe size={18} /></a>
@@ -47,7 +47,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            © {new Date().getFullYear()} LearningHub. Dibuat dengan ❤️
+            © {new Date().getFullYear()} Learnhub dibuat oleh Reando
           </p>
         </div>
       </div>
